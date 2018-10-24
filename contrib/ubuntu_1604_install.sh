@@ -41,8 +41,8 @@ virtualenv -p python3 env
 . env/bin/activate
 
 # Clone Repository and change folder
-git clone https://github.com/OpenDroneMap/WebODM
-cd WebODM/
+#git clone https://github.com/OpenDroneMap/WebODM
+cd ..
 
 pip install -r requirements.txt
 
