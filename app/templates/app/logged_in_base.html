@@ -194,7 +194,7 @@
             </a>
             <ul class="dropdown-menu dropdown-user">
                 <li class="user-profile">
-                    {% trans 'Hello' %}, {{ user.username }}<br/>
+                    {% trans '你好' %}, {{ user.username }}<br/>
                     <span class="email">{{ user.email }}</span>
                 </li>
                 <li class="divider"></li>
@@ -257,7 +257,6 @@
                             <a href="{% url 'processing_node' node.id %}"><span class="fa fa-laptop"></span> {{node}}</a>
                         </li>
                         {% endfor %}
-
                         {% if add_nodes %}
                         <li>
                             <a href="{% url 'admin:nodeodm_processingnode_add' %}"><span class="fa fa-plus-circle"></span> Add New</a>
