@@ -29,7 +29,7 @@
     {% get_plugins_css_includes %}
     {% endautoescape %}
 
-    <title>{{title|default:"Login"}} - {{ SETTINGS.app_name }}</title>
+    <title>{{title|default:"登录"}} - {{ SETTINGS.app_name }}</title>
 
     {% compress css %}
     <link rel="stylesheet" type="text/x-scss" href="{% static 'app/css/theme.scss' %}" />
@@ -42,7 +42,7 @@
 <body data-admin-utc-offset="{% now "Z" %}">
 {% block body %}
     <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <p class="browserupgrade">您正在使用的IE浏览器并不支持该应用。请更新浏览器以提升体验。</p>
     <![endif]-->
     <!--
             {% if request.user.is_authenticated %}

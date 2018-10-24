@@ -7,13 +7,13 @@
 
 	<!--[if lte IE 8]>
 		<div class="alert alert-warning alert-dismissible">
-            WebODM cannot be used with this version of Internet Explorer. Could you please upgrade <a href="https://www.microsoft.com/en-us/download/internet-explorer.aspx">Internet Explorer</a> to the latest version or use <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>?
+            本应用暂不支持IE 8系列浏览器。请更新 <a href="https://www.microsoft.com/en-us/download/internet-explorer.aspx">Internet Explorer</a> 浏览器至最新版本或使用 <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>?
         </div>
 	<![endif]-->
 
 	{% if no_processingnodes %}
-		<h3>{% trans 'Welcome! ☺' %}</h3>
-		{% trans 'Add a Processing Node' as add_processing_node %}
+		<h3>{% trans '欢迎! ☺' %}</h3>
+		{% trans '添加处理节点' as add_processing_node %}
 		{% with nodeodm_link='<a href="https://github.com/pierotofy/node-OpenDroneMap" target="_blank">node-OpenDroneMap</a>' api_link='<a href="https://github.com/pierotofy/node-OpenDroneMap/blob/master/docs/index.adoc" target="_blank">API</a>' %}
 			<p>
 			{% blocktrans %} 
@@ -26,17 +26,17 @@
 	{% else %}
 		
 		{% if no_tasks %}
-			<h3>{% trans 'Welcome! ☺' %}</h3>
-			{% trans 'Select Images and GCP' as upload_images %}
+			<h3>{% trans '欢迎! ☺' %}</h3>
+			{% trans '选择图片及地面控制点' as upload_images %}
 			<p>
 				{% blocktrans %} To create a map, press the "{{ upload_images }}" button, or drag and drop some images into a project. {% endblocktrans %}
 			</p>
 			<p>
 				<ul>
-					<li>{% trans 'You need at least 5 images' %}</li>
-					<li>{% trans 'Images must overlap by 65% or more' %}</li>
-					<li>{% trans 'For great 3D, images must overlap by 83%' %}</li>
-					<li>{% trans 'A <a href="https://github.com/OpenDroneMap/OpenDroneMap/wiki/Running-OpenDroneMap#running-odm-with-ground-control" target="_blank">GCP file</a> is optional, but can increase georeferencing accuracy' %}</li>
+					<li>{% trans '您需要至少5张图片' %}</li>
+					<li>{% trans '图片至少需要有65%以上的重合度' %}</li>
+					<li>{% trans '为了更好的3D体验，图片必须有83%以上的重合度' %}</li>
+					<li>{% trans '可选择提供 <a href="https://github.com/OpenDroneMap/OpenDroneMap/wiki/Running-OpenDroneMap#running-odm-with-ground-control" target="_blank">地面控制点文件</a> 以提升地理坐标精度' %}</li>
 				</ul>
 			</p>
 		{% endif %}

@@ -194,11 +194,11 @@
             </a>
             <ul class="dropdown-menu dropdown-user">
                 <li class="user-profile">
-                    {% trans '你好' %}, {{ user.username }}<br/>
+                    {% trans '您好' %}, {{ user.username }}<br/>
                     <span class="email">{{ user.email }}</span>
                 </li>
                 <li class="divider"></li>
-                <li><a href="/logout/"><i class="fa fa-sign-out fa-fw"></i> {% trans 'Logout' %}</a>
+                <li><a href="/logout/"><i class="fa fa-sign-out fa-fw"></i> {% trans '注销' %}</a>
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -221,7 +221,7 @@
                     </div>
                 </li>-->
                 <li>
-                    <a href="/dashboard/"><i class="fa fa-dashboard fa-fw"></i> {% trans 'Dashboard' %}</a>
+                    <a href="/dashboard/"><i class="fa fa-dashboard fa-fw"></i> {% trans '任务概览' %}</a>
                 </li>
                 <!--<li>
                     <a href="#"><i class="fa fa-plane fa-fw"></i> Mission Planner</a>
@@ -250,7 +250,7 @@
 
                 {% if view_nodes %}
                 <li>
-                    <a href="#"><i class="fa fa-wrench fa-fw"></i> Processing Nodes<span class="fa arrow"></span></a>
+                    <a href="#"><i class="fa fa-wrench fa-fw"></i> 处理节点<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         {% for node in nodes %}
                         <li>
@@ -259,7 +259,7 @@
                         {% endfor %}
                         {% if add_nodes %}
                         <li>
-                            <a href="{% url 'admin:nodeodm_processingnode_add' %}"><span class="fa fa-plus-circle"></span> Add New</a>
+                            <a href="{% url 'admin:nodeodm_processingnode_add' %}"><span class="fa fa-plus-circle"></span> 添加新的处理节点</a>
                         </li>
                         {% endif %}
                     </ul>
@@ -269,22 +269,22 @@
 
                 {% if user.is_staff %}
                 <li>
-                    <a href="/admin/"><i class="fa fa-gears fa-fw"></i> {% trans 'Administration' %}</a>
+                    <a href="/admin/"><i class="fa fa-gears fa-fw"></i> {% trans '管理界面' %}</a>
                 </li>
                 {% endif %}
                 <li>
-                    <a href="/api/"><i class="fa fa-book fa-fw"></i> {% trans 'API' %}</a>
+                    <a href="/api/"><i class="fa fa-book fa-fw"></i> {% trans 'API 接口' %}</a>
                 </li>
 
                 {% if user.is_staff %}
                 <li>
-                    <a href="#"><i class="fa fa-magic fa-fw"></i> {% trans 'Customize' %}<span class="fa arrow"></span></a>
+                    <a href="#"><i class="fa fa-magic fa-fw"></i> {% trans '界面定制' %}<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
                             <a href="{% url 'admin:app_setting_change' SETTINGS.id %}"><i class="fa fa-hand-o-right"></i> {% trans 'Brand' %}</a>
                         </li>
                         <li>
-                            <a href="{% url 'admin:app_theme_change' SETTINGS.theme.id %}"><i class="fa fa-paint-brush"></i> {% trans 'Theme' %}</a>
+                            <a href="{% url 'admin:app_theme_change' SETTINGS.theme.id %}"><i class="fa fa-paint-brush"></i> {% trans '主题定制' %}</a>
                         </li>
                     </ul>
                 </li>
