@@ -271,6 +271,9 @@
                 <li>
                     <a href="/admin/"><i class="fa fa-gears fa-fw"></i> {% trans '管理界面' %}</a>
                 </li>
+                <li>
+                    <a href="/mesos/"><i class="fa fa-cloud fa-fw"></i> {% trans '云平台资源信息' %}</a>
+                </li>
                 {% endif %}
                 <li>
                     <a href="/api/"><i class="fa fa-book fa-fw"></i> {% trans 'API 接口' %}</a>
@@ -281,7 +284,7 @@
                     <a href="#"><i class="fa fa-magic fa-fw"></i> {% trans '界面定制' %}<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="{% url 'admin:app_setting_change' SETTINGS.id %}"><i class="fa fa-hand-o-right"></i> {% trans 'Brand' %}</a>
+                            <a href="{% url 'admin:app_setting_change' SETTINGS.id %}"><i class="fa fa-hand-o-right"></i> {% trans '命名及标识' %}</a>
                         </li>
                         <li>
                             <a href="{% url 'admin:app_theme_change' SETTINGS.theme.id %}"><i class="fa fa-paint-brush"></i> {% trans '主题定制' %}</a>

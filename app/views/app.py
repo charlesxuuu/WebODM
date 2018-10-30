@@ -37,6 +37,12 @@ def dashboard(request):
         'no_tasks': no_tasks
     })
 
+@login_required
+def mesos(request):
+    # TODO
+    return render(request, 'app/mesos.html', {'title': 'Mesos'
+    })
+
 
 @login_required
 def map(request, project_pk=None, task_pk=None):

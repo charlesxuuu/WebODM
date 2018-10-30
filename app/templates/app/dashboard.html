@@ -17,7 +17,7 @@
 		{% with nodeodm_link='<a href="https://github.com/pierotofy/node-OpenDroneMap" target="_blank">node-OpenDroneMap</a>' api_link='<a href="https://github.com/pierotofy/node-OpenDroneMap/blob/master/docs/index.adoc" target="_blank">API</a>' %}
 			<p>
 			{% blocktrans %} 
-				To get started, "{{ add_processing_node }}". A processing node is a computer running an instance of {{ nodeodm_link }} or some other software that implements this {{ api_link }}.
+				请点击"{{ add_processing_node }}"添加处理节点。一个处理节点可以是一个运行{{ nodeodm_link }}实例的边缘计算节点或是实现{{ api_link }}的云计算中心的3D构建节点。
 			{% endblocktrans %}
 			</p>
 		{% endwith %}
@@ -29,7 +29,7 @@
 			<h3>{% trans '欢迎! ☺' %}</h3>
 			{% trans '选择图片及地面控制点' as upload_images %}
 			<p>
-				{% blocktrans %} To create a map, press the "{{ upload_images }}" button, or drag and drop some images into a project. {% endblocktrans %}
+				{% blocktrans %} 请点击"{{ upload_images }}"以构建3D模型及地图信息，或可以直接拖拽图片到某个项目中。 {% endblocktrans %}
 			</p>
 			<p>
 				<ul>

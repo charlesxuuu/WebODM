@@ -15,7 +15,7 @@ class TokenForm(forms.Form):
 class Plugin(PluginBase):
 
     def main_menu(self):
-        return [Menu("OpenAerialMap", self.public_url(""), "oam-icon fa fa-fw")]
+        return [Menu("开放空域地图", self.public_url(""), "oam-icon fa fa-fw")]
 
     def include_js_files(self):
         return ['main.js']
