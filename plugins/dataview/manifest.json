@@ -1,13 +1,13 @@
 {
-	"name": "OpenAerialMap",
+	"name": "DataView",
 	"webodmMinVersion": "0.6.0",
-	"description": "A plugin to upload orthophotos to OpenAerialMap",
+	"description": "A plugin to upload and examine sensor data",
 	"version": "0.1.0",
-	"author": "Piero Toffanin",
-	"email": "pt@masseranolabs.com",
-	"repository": "https://github.com/OpenDroneMap/WebODM",
-	"tags": ["oam", "openaerialmap"],
-	"homepage": "https://github.com/OpenDroneMap/WebODM",
+	"author": "Chi Xu",
+	"email": "xuchi.int@gmail.com",
+	"repository": "https://github.com/CharlesXuuu/WebODM",
+	"tags": ["dataview", "sensor"],
+	"homepage": "https://github.com/CharlesXuuu/WebODM",
 	"experimental": true,
 	"deprecated": false
 }
