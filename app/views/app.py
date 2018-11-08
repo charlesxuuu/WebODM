@@ -43,6 +43,11 @@ def mesos(request):
     return render(request, 'app/mesos.html', {'title': 'Mesos'
     })
 
+@login_required
+def hadoop(request):
+    # TODO
+    return render(request, 'app/hadoop.html', {'title': 'Hadoop'
+    })
 
 @login_required
 def map(request, project_pk=None, task_pk=None):
