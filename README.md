@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/OpenDroneMap/WebODM.svg?branch=master)](https://travis-ci.org/OpenDroneMap/WebODM) [![Join Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OpenDroneMap/web-development) [![GitHub version](https://badge.fury.io/gh/OpenDroneMap%2FWebODM.svg)](https://badge.fury.io/gh/OpenDroneMap%2FWebODM)
 
-A free, user-friendly, extendable application and [API](http://docs.webodm.org) for drone image processing. Generate georeferenced maps, point clouds, elevation models and textured 3D models from aerial images. It uses [OpenDroneMap](https://github.com/OpenDroneMap/OpenDroneMap) for processing.
+A free, user-friendly, extendable application and [API](http://docs.webodm.org) for drone image processing. Generate georeferenced maps, point clouds, elevation models and textured 3D models from aerial images. It uses [ODM](https://github.com/OpenDroneMap/ODM) for processing.
 
 
 ![image](https://user-images.githubusercontent.com/1951843/33631371-5c55cc2c-d9d8-11e7-8609-b9032d4bbbb6.png)
@@ -18,7 +18,7 @@ A free, user-friendly, extendable application and [API](http://docs.webodm.org) 
     * [Manage Plugins](#manage-plugins)
  * [Customizing and Extending](#customizing-and-extending)
  * [API Docs](#api-docs)
- * [OpenDroneMap, node-OpenDroneMap, WebODM... what?](#opendronemap-node-opendronemap-webodm-what)
+ * [ODM, NodeODM, WebODM... what?](#odm-nodeodm-webodm-what)
  * [Roadmap](#roadmap)
  * [Getting Help](#getting-help)
  * [Support the Project](#support-the-project)
@@ -42,7 +42,7 @@ A free, user-friendly, extendable application and [API](http://docs.webodm.org) 
  - [Pip](https://pypi.python.org/pypi/pip/)
  - [Git](https://git-scm.com/downloads)
 
-* Windows users have a choice between Docker Toolbox (older product but more tutorials available) and Docker for Windows (more recent version that runs on Microsoft's Hyper-V virtualization engine, recommended by Docker). Docker for Windows users should set up their Docker environment before launching WebODM using the Docker utility in the system tray: 1) make sure Linux containers are enabled (Switch to Linux Containers...), 2) give Docker enough CPUs (default 2) and RAM (>4Gb, 16Gb better but leave some for Windows) by going to Settings -- Advanced, and 3) select where on your hard drive you want virtual hard drives to reside (Settings -- Advanced -- Images & Volumes) . 
+* Windows users have a choice between Docker Toolbox (Windows 10 Home or older) and Docker for Windows (Windows 10 Pro or newer). Docker for Windows users should set up their Docker environment before launching WebODM using the Docker utility in the system tray: 1) make sure Linux containers are enabled (Switch to Linux Containers...), 2) give Docker enough CPUs (default 2) and RAM (>4Gb, 16Gb better but leave some for Windows) by going to Settings -- Advanced, and 3) select where on your hard drive you want virtual hard drives to reside (Settings -- Advanced -- Images & Volumes). 
 
 * From the Docker Quickstart Terminal or Powershell (Windows), or from the command line (Mac / Linux), type:
 ```bash
@@ -77,6 +77,8 @@ To update WebODM to the latest version use:
 We recommend that you read the [Docker Documentation](https://docs.docker.com/) to familiarize with the application lifecycle, setup and teardown, or for more advanced uses. Look at the contents of the webodm.sh script to understand what commands are used to launch WebODM.
 
 For Windows and macOS users an [installer](https://www.webodm.org/installer) is also available.
+
+You can also run WebODM from a Live USB/DVD. See [LiveODM](https://www.opendronemap.org/liveodm/).
 
 ### Add More Processing Nodes
 
@@ -193,13 +195,13 @@ To create a plugin simply copy the `plugins/test` plugin into a new directory (f
 
 See the [API documentation page](http://docs.webodm.org).
 
-## OpenDroneMap, node-OpenDroneMap, WebODM... what?
+## ODM, NodeODM, WebODM... what?
 
 The [OpenDroneMap project](https://github.com/OpenDroneMap/) is composed of several components.
 
-- [OpenDroneMap](https://github.com/OpenDroneMap/OpenDroneMap) is a command line toolkit that processes aerial images. Users comfortable with the command line are probably OK using this component alone.
-- [node-OpenDroneMap](https://github.com/OpenDroneMap/node-OpenDroneMap) is a lightweight interface and API (Application Program Interface) built directly on top of [OpenDroneMap](https://github.com/OpenDroneMap/OpenDroneMap). Users not comfortable with the command line can use this interface to process aerial images and developers can use the API to build applications. Features such as user authentication, map displays, etc. are not provided.
-- [WebODM](https://github.com/OpenDroneMap/WebODM) adds more features such as user authentication, map displays, 3D displays, a higher level API and the ability to orchestrate multiple processing nodes (run jobs in parallel). Processing nodes are simply servers running [node-OpenDroneMap](https://github.com/OpenDroneMap/node-OpenDroneMap).
+- [ODM](https://github.com/OpenDroneMap/ODM) is a command line toolkit that processes aerial images. Users comfortable with the command line are probably OK using this component alone.
+- [NodeODM](https://github.com/OpenDroneMap/NodeODM) is a lightweight interface and API (Application Program Interface) built directly on top of [ODM](https://github.com/OpenDroneMap/ODM). Users not comfortable with the command line can use this interface to process aerial images and developers can use the API to build applications. Features such as user authentication, map displays, etc. are not provided.
+- [WebODM](https://github.com/OpenDroneMap/WebODM) adds more features such as user authentication, map displays, 3D displays, a higher level API and the ability to orchestrate multiple processing nodes (run jobs in parallel). Processing nodes are simply servers running [NodeODM](https://github.com/OpenDroneMap/node-OpenDroneMap).
 
 ![webodm](https://cloud.githubusercontent.com/assets/1951843/25567386/5aeec7aa-2dba-11e7-9169-aca97b70db79.png)
 
@@ -208,11 +210,11 @@ In general, follow these guidelines to find out what you should use:
 I am a... | Best choice
 --------- | -----------
 End user, I'm not really comfortable with the command line | [WebODM](https://github.com/OpenDroneMap/WebODM)
-End user, I like shell commands, I need to process images for myself. I use other software to display processing results |  [OpenDroneMap](https://github.com/OpenDroneMap/OpenDroneMap)
-End user, I can work with the command line, but I'd rather not. I use other software to display processing results  |  [node-OpenDroneMap](https://github.com/OpenDroneMap/node-OpenDroneMap)
+End user, I like shell commands, I need to process images for myself. I use other software to display processing results |  [ODM](https://github.com/OpenDroneMap/ODM)
+End user, I can work with the command line, but I'd rather not. I use other software to display processing results  |  [NodeODM](https://github.com/OpenDroneMap/NodeODM)
 End user, I need a drone mapping application for my organization that everyone can use. | [WebODM](https://github.com/OpenDroneMap/WebODM)
 Developer, I'm looking to build an app that displays map results and takes care of things like permissions | [WebODM](https://github.com/OpenDroneMap/WebODM)
-Developer, I'm looking to build an app that will stay behind a firewall and just needs raw results | [node-OpenDroneMap](https://github.com/OpenDroneMap/node-OpenDroneMap)
+Developer, I'm looking to build an app that will stay behind a firewall and just needs raw results | [NodeODM](https://github.com/OpenDroneMap/NodeODM)
 
 ## Roadmap
 - [X] User Registration / Authentication
@@ -442,23 +444,19 @@ Should all work without errors.
 
 These steps are for Google Cloud, but can also be used for Amazon AWS, and other cloud platforms with small modifications:
 
-1. Launch a Google Cloud instance of Ubuntu 18.0 TLS.
+1. Launch a Google Cloud instance of Ubuntu 18.0 LTS.
 2. Open the SSH terminal - Google offers SSH via the website.
-2. Run sudo apt-get update
-3. Run sudo apt-get upgrade
-4. Run sudo apt-get install docker-compose
-5. Run sudo apt-get install python-pip
-6. Run git clone https://github.com/OpenDroneMap/WebODM --config core.autocrlf=input --depth 1
-7. cd WebODM (Linux is case sensitive)
-8. sudo ./webodm.sh start
-9. You now can access webodm via the public IP address for your google instance. Remember the default port of 8000.
-10. Open http://GooglepublicIPaddressforyourinstance:8000 
+3. Run sudo apt-get update
+4. Run sudo apt-get upgrade
+5. Run sudo apt-get install docker-compose
+6. Run sudo apt-get install python-pip
+7. Run git clone https://github.com/OpenDroneMap/WebODM --config core.autocrlf=input --depth 1
+8. cd WebODM (Linux is case sensitive)
+9. sudo ./webodm.sh start
+10. You now can access webodm via the public IP address for your google instance. Remember the default port of 8000.
+11. Check that your instance's firewall is allowing inbound TCP connections on port 8000! If you forget this step you will not be able to connect to WebODM.
+12. Open http://GooglepublicIPaddressforyourinstance:8000
 
-The WebODM Website will open, and you can proceed to create a username and password.
-
-Firewalll exclusions will need to be set, to be able to use the default TCP Port 8000 from the installation:
-Open the instance, on the middle of the instance settings page find NIC0. Open it, and then add the TCP Port 8000 for ingress, and egress on the Firewall.
-
-
+To setup the firewall on Google Cloud, open the instance, on the middle of the instance settings page find NIC0. Open it, and then add the TCP Port 8000 for ingress, and egress on the Firewall.
 
 
