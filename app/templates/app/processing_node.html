@@ -20,12 +20,24 @@
 		<td>{{ processing_node.api_version }}</td>
 	</tr>
 	<tr>
-		<td>{% trans "队列计数" %}</td>
+		<td>{% trans "ODM Version" %}</td>
+		<td>{{ processing_node.odm_version }}</td>
+	</tr>
+	<tr>
+		<td>{% trans "Queue Count" %}</td>
 		<td>{{ processing_node.queue_count }}</td>
 	</tr>
 	<tr>
-		<td>{% trans "上次更新于" %}</td>
-		<td>{{ processing_node.last_refreshed|timesince }} {% trans '之前' %} ({{ processing_node.last_refreshed|localtime }})</td> <!-- TODO: timezone? -->
+		<td>{% trans "Max Images Limit" %}</td>
+		<td>{{ processing_node.max_images }}</td>
+	</tr>
+	<tr>
+		<td>{% trans "Label" %}</td>
+		<td>{{ processing_node.label|default:"None" }}</td>
+	</tr>
+	<tr>
+		<td>{% trans "Last Refreshed" %}</td>
+		<td>{{ processing_node.last_refreshed|timesince }} {% trans 'ago' %} ({{ processing_node.last_refreshed|localtime }})</td> <!-- TODO: timezone? -->
 	</tr>
 	<tr>
 		<td>{% trans "选项 (JSON)" %}</td>

@@ -254,7 +254,7 @@
                     <ul class="nav nav-second-level">
                         {% for node in nodes %}
                         <li>
-                            <a href="{% url 'processing_node' node.id %}"><span class="fa fa-laptop"></span> {{node}}</a>
+                            <a href="{% url 'processing_node' node.id %}"><span class="fa fa-laptop {% if node.is_online %}theme-color-button-primary{% else %}theme-color-button-danger{% endif %}"></span> {{node}}</a>
                         </li>
                         {% endfor %}
                         {% if add_nodes %}
@@ -282,15 +282,26 @@
                     <a href="/api/"><i class="fa fa-book fa-fw"></i> {% trans 'API 接口' %}</a>
                 </li>
 
-                {% if user.is_staff %}
                 <li>
-                    <a href="#"><i class="fa fa-magic fa-fw"></i> {% trans '界面定制' %}<span class="fa arrow"></span></a>
+                    <a href="#"><i class="fa fa-gears fa-fw"></i> {% trans 'Administration' %}<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="{% url 'admin:app_setting_change' SETTINGS.id %}"><i class="fa fa-hand-o-right"></i> {% trans '命名及标识' %}</a>
+                            <a href="/admin/auth/user/"><i class="fa fa-user fa-fw"></i> {% trans 'Accounts' %}</a>
                         </li>
                         <li>
-                            <a href="{% url 'admin:app_theme_change' SETTINGS.theme.id %}"><i class="fa fa-paint-brush"></i> {% trans '主题定制' %}</a>
+                            <a href="/admin/auth/group/"><i class="fa fa-group fa-fw"></i> {% trans 'Groups' %}</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'admin:app_setting_change' SETTINGS.id %}"><i class="fa fa-magic fa-fw"></i> {% trans 'Brand' %}</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'admin:app_theme_change' SETTINGS.theme.id %}"><i class="fa fa-paint-brush fa-fw"></i> {% trans 'Theme' %}</a>
+                        </li>
+                        <li>
+                            <a href="/admin/app/plugin/"><i class="fa fa-plug fa-fw"></i> {% trans 'Plugins' %}</a>
+                        </li>
+                        <li>
+                            <a href="/admin/app/"><i class="fa fa-gear fa-fw"></i> {% trans 'Application' %}</a>
                         </li>
                     </ul>
                 </li>

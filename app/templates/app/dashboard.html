@@ -14,7 +14,7 @@
 	{% if no_processingnodes %}
 		<h3>{% trans '欢迎! ☺' %}</h3>
 		{% trans '添加处理节点' as add_processing_node %}
-		{% with nodeodm_link='<a href="https://github.com/pierotofy/node-OpenDroneMap" target="_blank">node-OpenDroneMap</a>' api_link='<a href="https://github.com/pierotofy/node-OpenDroneMap/blob/master/docs/index.adoc" target="_blank">API</a>' %}
+		{% with nodeodm_link='<a href="https://github.com/OpenDroneMap/NodeODM" target="_blank">NodeODM</a>' api_link='<a href="https://github.com/OpenDroneMap/NodeODM/blob/master/docs/index.adoc" target="_blank">API</a>' %}
 			<p>
 			{% blocktrans %} 
 				请点击"{{ add_processing_node }}"添加处理节点。一个处理节点可以是一个运行{{ nodeodm_link }}实例的边缘计算节点或是实现{{ api_link }}的云计算中心的3D构建节点。

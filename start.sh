@@ -43,18 +43,15 @@ if [ "$1" = "--setup-devenv" ] || [ "$2" = "--setup-devenv" ]; then
     
     echo Setup npm dependencies...
     npm install
-    cd nodeodm/external/node-OpenDroneMap
+    cd nodeodm/external/NodeODM
     npm install
     cd /webodm
 
+    echo Setup pip requirements...
+    pip install -r requirements.txt
+
     echo Setup webpack watch...
     webpack --watch &
-fi
-
-if [[ ! -e .initialized ]]; then
-    echo Cleaning up plugins
-    ./webodm.sh plugin cleanup
-    touch .initialized
 fi
 
 echo Running migrations
