@@ -442,3 +442,40 @@ gdalinfo --version
 redis-server --version
 ```
 Should all work without errors.
+
+## Multilanguage Support
+
+In /webodm/settings.py, modify 
+```python
+LANGUAGES = (
+    ('zh-hans', '中文简体'),
+    ('en', 'English'),
+)
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
+```
+In /webodm/urls.py, modify 
+
+```python
+from django.conf.urls.i18n import i18n_patterns
+
+urlpatterns = i18n_patterns(
+    url(r'^', include('app.urls')),
+    url(r'^', include('django.contrib.auth.urls')),
+    url(r'^admin/', admin.site.urls),
+#    url(r'^i18n/', include('django.conf.urls.i18n')),
+)
+```
+
+Then
+
+```bash
+python manage.py makemessages -l zh_Hans
+python manage.py compilemessages -l zh_Hans
+```
+modify /locale/zh_Hans/LC_MESSAGES/django.po
+
+Web browser settings set to Chinese then by default will go to zh_Hans
+
+

@@ -16,17 +16,28 @@ Including another URLconf
 import os
 
 from django.conf.urls import include, url
+from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 from . import settings
 from django.views.static import serve
 
+
+
 admin.site.site_header = 'WebODM Administration'
 
-urlpatterns = [
+# urlpatterns = [
+#     url(r'^', include('app.urls')),
+#     url(r'^', include('django.contrib.auth.urls')),
+#     url(r'^admin/', admin.site.urls),
+#     url(r'^i18n/', include('django.conf.urls.i18n')),
+# ]
+
+urlpatterns = i18n_patterns(
     url(r'^', include('app.urls')),
     url(r'^', include('django.contrib.auth.urls')),
     url(r'^admin/', admin.site.urls),
-]
+#    url(r'^i18n/', include('django.conf.urls.i18n')),
+)
 
 if settings.DEBUG:
     urlpatterns += [

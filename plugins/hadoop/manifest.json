@@ -1,0 +1,13 @@
+{
+	"name": "mesos",
+	"webodmMinVersion": "0.6.0",
+	"description": "A plugin to check mesos status",
+	"version": "0.1.0",
+	"author": "Chi Xu",
+	"email": "xuchi.int@gmail.com",
+	"repository": "https://github.com/CharlesXuuu/WebODM",
+	"tags": ["dataview", "sensor"],
+	"homepage": "https://github.com/CharlesXuuu/WebODM",
+	"experimental": true,
+	"deprecated": false
+}

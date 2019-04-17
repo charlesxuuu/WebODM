@@ -33,8 +33,6 @@ urlpatterns = [
     url(r'^public/task/(?P<task_pk>[^/.]+)/json/$', public_views.task_json, name='public_json'),
 
     url(r'^processingnode/([\d]+)/$', app_views.processing_node, name='processing_node'),
-    url(r'^mesos/$', app_views.mesos, name='mesos'),
-    url(r'^hadoop/$', app_views.hadoop, name='hadoop'),
     url(r'^api/', include("app.api.urls")),
 ]
 

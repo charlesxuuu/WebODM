@@ -269,16 +269,6 @@
 
                 {% if user.is_staff %}
                 <li>
-                    <a href="/admin/"><i class="fa fa-gears fa-fw"></i> {% trans '管理界面' %}</a>
-                </li>
-                <li>
-                    <a href="/mesos/"><i class="fa fa-cloud fa-fw"></i> {% trans '云平台计算资源池' %}</a>
-                </li>
-                <li>
-                    <a href="/hadoop/"><i class="fa fa-cloud-upload fa-fw"></i> {% trans '云平台分布式文件系统' %}</a>
-                </li>
-                {% endif %}
-                <li>
                     <a href="/api/"><i class="fa fa-book fa-fw"></i> {% trans 'API 接口' %}</a>
                 </li>
 
@@ -302,6 +292,9 @@
                         </li>
                         <li>
                             <a href="/admin/app/"><i class="fa fa-gear fa-fw"></i> {% trans 'Application' %}</a>
+                        </li>
+                        <li>
+                            <a href="/admin/nodeodm/"><i class="fa fa-wrench fa-fw"></i> {% trans 'Node' %}</a>
                         </li>
                     </ul>
                 </li>

@@ -15,7 +15,7 @@ class TokenForm(forms.Form):
 class Plugin(PluginBase):
 
     def main_menu(self):
-        return [Menu("传感器数据", self.public_url(""), "fa fa-file-o fa-fw")]
+        return [Menu("数据智能", self.public_url(""), "fa fa-file-o fa-fw")]
 
     def include_js_files(self):
         return ['main.js']
