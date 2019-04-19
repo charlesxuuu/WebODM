@@ -4,21 +4,33 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
-
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-16 16:49-0700\n"
-"PO-Revision-Date: 2019-04-17 21:09+0800\n"
-"Language: zh\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.2.1\n"
+
+
+# 徐驰：把 msgid 引号""里的内容翻译到 msgstr引号""里面。 
+# 翻译重要的内容，比方说你经常会用到看到的按钮以及提示等。
+# 报错的信息你觉得容易翻译就翻译
+# 遇到中文的msgid把中文粘贴到msgstr里面就行
+# 有些特殊的地方 "%()s" 的东西 保留格式 比方说
+# msgid "Select all %(total_count)s %(module_name)s"
+# msgstr "选择所有 %(total_count)s %(module_name)s"
+# <em>XXX</em> 表示强调 这对标识符不变 中间的XXX有需要进行翻译
+# 遇到括号用英文输入法的括号，中文输入法的括号占2个字符，很不美观，用中文输入法的逗号和句号
+# 有不懂的再问我
+
+
 
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
@@ -27,7 +39,7 @@ msgstr "页面没有找到"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
-msgstr "对不起，请求的页面没有找到。"
+msgstr "对不起，请求的页面没有找到"
 
 #: app/templates/app/admin/500.html:6 app/templates/app/admin/app_index.html:9
 #: app/templates/app/admin/auth/user/change_password.html:13
@@ -57,19 +69,19 @@ msgstr "服务器错误<em>(500)</em>"
 msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
-msgstr "出错了。已通过电子邮件向网站管理员报告，谢谢。"
+msgstr ""
 
 #: app/templates/app/admin/actions.html:4
 msgid "Run the selected action"
-msgstr "执行选中的操作"
+msgstr ""
 
 #: app/templates/app/admin/actions.html:4
 msgid "Go"
-msgstr "执行"
+msgstr ""
 
 #: app/templates/app/admin/actions.html:10
 msgid "Click here to select the objects across all pages"
-msgstr "单击此处可选择所有页面中的对象"
+msgstr ""
 
 #: app/templates/app/admin/actions.html:10
 #, python-format
@@ -78,22 +90,22 @@ msgstr "选择所有 %(total_count)s %(module_name)s"
 
 #: app/templates/app/admin/actions.html:12
 msgid "Clear selection"
-msgstr "清空选项"
+msgstr ""
 
 #: app/templates/app/admin/auth/user/add_form.html:6
 msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
-msgstr "首先，输入用户名和密码。然后，您将能够编辑更多的用户选项。"
+msgstr ""
 
 #: app/templates/app/admin/auth/user/add_form.html:8
 msgid "Enter a username and password."
-msgstr "输入用户名和密码。"
+msgstr ""
 
 #: app/templates/app/admin/auth/user/change_password.html:17
 #: app/templates/app/admin/auth/user/change_password.html:54
 msgid "Change password"
-msgstr "更改密码"
+msgstr ""
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
@@ -104,69 +116,69 @@ msgstr "更改密码"
 #: app/templates/app/registration/password_reset_form.html:7
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
-msgstr[0] "请更正下列错误。"
-msgstr[1] "请更正下列错误。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the errors below."
-msgstr "请更正下列错误。"
+msgstr ""
 
 #: app/templates/app/admin/auth/user/change_password.html:31
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr "输入一个新的密码给用户<strong>%(username)s</strong>。"
+msgstr ""
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
-msgstr "Django网站管理员"
+msgstr ""
 
 #: app/templates/app/admin/base_site.html:6
 msgid "Django administration"
-msgstr "Django 管理"
+msgstr ""
 
 #: app/templates/app/admin/change_form.html:21
 #: app/templates/app/admin/change_list.html:49
 #, python-format
 msgid "Add %(name)s"
-msgstr "添加 %(name)s"
+msgstr ""
 
 #: app/templates/app/admin/change_form.html:33
 #: app/templates/app/admin/object_history.html:10
 msgid "History"
-msgstr "历史记录"
+msgstr ""
 
 #: app/templates/app/admin/change_form.html:35
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
 msgid "View on site"
-msgstr "网站上查看"
+msgstr ""
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
-msgstr "筛选"
+msgstr ""
 
 #: app/templates/app/admin/change_list_results.html:17
 msgid "Remove from sorting"
-msgstr "清除排序"
+msgstr ""
 
 #: app/templates/app/admin/change_list_results.html:18
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr "排序优先级:%(priority_number)s"
+msgstr ""
 
 #: app/templates/app/admin/change_list_results.html:19
 msgid "Toggle sorting"
-msgstr "切换排序"
+msgstr ""
 
 #: app/templates/app/admin/delete_confirmation.html:17
 #: app/templates/app/admin/related_widget_wrapper.html:23
 #: app/templates/app/admin/submit_line.html:6
 #: odmvenv/lib/python3.5/site-packages/django/forms/formsets.py:375
 msgid "Delete"
-msgstr "删除"
+msgstr ""
 
 #: app/templates/app/admin/delete_confirmation.html:23
 #, python-format
@@ -175,8 +187,6 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
-"删除%(object_name)s '%(escaped_object)s'将会导致删除相关对象"
-"，但是您的账户无权删除以下类型的对象:"
 
 #: app/templates/app/admin/delete_confirmation.html:30
 #, python-format
@@ -184,7 +194,6 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
-"删除%(object_name)s '%(escaped_object)s'将会需要删除以下受保护的相关对象:"
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
@@ -192,27 +201,25 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"您确定要删除 %(object_name)s \"%(escaped_object)s\"? 以下所有的相关项目将被删"
-"除:"
 
 #: app/templates/app/admin/delete_confirmation.html:39
 #: app/templates/app/admin/delete_selected_confirmation.html:38
 msgid "Objects"
-msgstr "对象"
+msgstr ""
 
 #: app/templates/app/admin/delete_confirmation.html:46
 #: app/templates/app/admin/delete_selected_confirmation.html:49
 msgid "Yes, I'm sure"
-msgstr "是的，我确定"
+msgstr ""
 
 #: app/templates/app/admin/delete_confirmation.html:47
 #: app/templates/app/admin/delete_selected_confirmation.html:50
 msgid "No, take me back"
-msgstr "不，我要返回"
+msgstr ""
 
 #: app/templates/app/admin/delete_selected_confirmation.html:16
 msgid "Delete multiple objects"
-msgstr "删除多个对象"
+msgstr ""
 
 #: app/templates/app/admin/delete_selected_confirmation.html:22
 #, python-format
@@ -221,23 +228,20 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
-"删除选定的%(objects_name)s会导致删除相关对象，但您的账户无权删除以下类型的对"
-"象:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
 #, python-format
 msgid ""
-"Deleting the selected %(objects_name)s '%(escaped_object)s'would require deleting the following "
+"Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
-"删除选择的%(objects_name)s '%(escaped_object)s'将会需要删除以下受保护的相关对象:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:36
 #, python-format
 msgid ""
-"Are you sure you want to delete the selected %(objects_name)s ? All of the "
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
-msgstr "您确定要删除所选的 %(objects_name)s ? 以下所有对象及其相关项将被删除:"
+msgstr ""
 
 #: app/templates/app/admin/edit_inline/stacked.html:12
 #: app/templates/app/admin/edit_inline/tabular.html:34
@@ -245,50 +249,50 @@ msgstr "您确定要删除所选的 %(objects_name)s ? 以下所有对象及其�
 #: app/templates/app/admin/related_widget_wrapper.html:9
 #: odmvenv/lib/python3.5/site-packages/django/forms/widgets.py:385
 msgid "Change"
-msgstr "更改"
+msgstr ""
 
 #: app/templates/app/admin/edit_inline/tabular.html:20
 msgid "Delete?"
-msgstr "删除?"
+msgstr ""
 
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr " 按照%(filter_title)s"
+msgstr ""
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
-msgstr "总结"
+msgstr ""
 
 #: app/templates/app/admin/index.html:20
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr "模型在%(name)s中的应用"
+msgstr ""
 
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
 msgid "Add"
-msgstr "添加"
+msgstr ""
 
 #: app/templates/app/admin/index.html:47
 msgid "You don't have permission to edit anything."
-msgstr "您无权编辑任何内容。"
+msgstr ""
 
 #: app/templates/app/admin/index.html:55
 msgid "Recent actions"
-msgstr "最近的行为"
+msgstr ""
 
 #: app/templates/app/admin/index.html:56
 msgid "My actions"
-msgstr "我的行为"
+msgstr ""
 
 #: app/templates/app/admin/index.html:60
 msgid "None available"
-msgstr "没有可行的"
+msgstr ""
 
 #: app/templates/app/admin/index.html:74
 msgid "Unknown content"
-msgstr "内容未知"
+msgstr ""
 
 #: app/templates/app/admin/invalid_setup.html:12
 msgid ""
@@ -296,107 +300,106 @@ msgid ""
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
-"数据库安装有问题。 确认已创建相应的数据库表，并确认相应用户可以读取数据库。"
 
 #: app/templates/app/admin/login.html:37
 #, python-format
 msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
-msgstr "您被认证为%(username)s，但无权访问此页面。您想登陆其他账户吗?"
+msgstr ""
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
-msgstr "忘记密码或用户名?"
+msgstr ""
 
 #: app/templates/app/admin/login.html:61
 #: app/templates/app/registration/login.html:16
 msgid "Log in"
-msgstr "登录"
+msgstr ""
 
 #: app/templates/app/admin/object_history.html:22
 msgid "Date/time"
-msgstr "日期/时间"
+msgstr ""
 
 #: app/templates/app/admin/object_history.html:23
 msgid "User"
-msgstr "用户"
+msgstr ""
 
 #: app/templates/app/admin/object_history.html:24
 msgid "Action"
-msgstr "行为"
+msgstr ""
 
 #: app/templates/app/admin/object_history.html:38
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
-msgstr "此对象没有被更改的历史记录。它可能没有通过此管理网站添加。"
+msgstr ""
 
 #: app/templates/app/admin/pagination.html:10
 #: app/templates/app/admin/search_form.html:9
 msgid "Show all"
-msgstr "显示所有"
+msgstr ""
 
 #: app/templates/app/admin/pagination.html:11
 #: app/templates/app/admin/submit_line.html:3
 msgid "Save"
-msgstr "保存"
+msgstr ""
 
 #: app/templates/app/admin/popup_response.html:3
 msgid "Popup closing..."
-msgstr "弹出关闭..."
+msgstr ""
 
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
 msgid "Change selected %(model)s"
-msgstr "更改选定的%(model)s"
+msgstr ""
 
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
 msgid "Add another %(model)s"
-msgstr "添加另一个%(model)s"
+msgstr ""
 
 #: app/templates/app/admin/related_widget_wrapper.html:22
 #, python-format
 msgid "Delete selected %(model)s"
-msgstr "删除选定的%(model)s"
+msgstr ""
 
 #: app/templates/app/admin/search_form.html:7
 msgid "Search"
-msgstr "查找"
+msgstr ""
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
-msgstr[0] "%(counter)s 结果"
-msgstr[1] "%(counter)s 结果"
+msgstr[0] ""
+msgstr[1] ""
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr "%(full_result_count)s总计"
+msgstr ""
 
 #: app/templates/app/admin/submit_line.html:8
 msgid "Save as new"
-msgstr "另存为"
+msgstr ""
 
 #: app/templates/app/admin/submit_line.html:9
 msgid "Save and add another"
-msgstr "保存并添加另一个"
+msgstr ""
 
 #: app/templates/app/admin/submit_line.html:10
 msgid "Save and continue editing"
-msgstr "保存并继续编辑"
+msgstr ""
 
 #: app/templates/app/dashboard.html:15 app/templates/app/dashboard.html:29
 #: app/templates/app/welcome.html:227
 msgid "欢迎! ☺"
-msgstr "欢迎! ☺"
+msgstr ""
 
 #: app/templates/app/dashboard.html:16
 msgid "添加处理节点"
-msgstr "添加处理节点"
+msgstr ""
 
 #: app/templates/app/dashboard.html:19
 #, python-format
@@ -407,15 +410,10 @@ msgid ""
 "建节点。\n"
 "\t\t\t"
 msgstr ""
-" \n"
-"\t\t\t\t请点击\"%(add_processing_node)s\"添加处理节点。一个处理节点可以是一个"
-"运行%(nodeodm_link)s实例的边缘计算节点或是实现%(api_link)s的云计算中心的3D构"
-"建节点。\n"
-"\t\t\t"
 
 #: app/templates/app/dashboard.html:30
 msgid "选择图片及地面控制点"
-msgstr "选择图片及地面控制点"
+msgstr ""
 
 #: app/templates/app/dashboard.html:32
 #, python-format
@@ -423,22 +421,20 @@ msgid ""
 " 请点击\"%(upload_images)s\"以构建3D模型及地图信息，或可以直接拖拽图片到某个"
 "项目中。 "
 msgstr ""
-"请点击\"%(upload_images)s\"以构建3D模型及地图信息，或可以直接拖拽图片到某个项"
-"目中。"
 
 #: app/templates/app/dashboard.html:36
 msgid "您需要至少5张图片"
-msgstr "您需要至少5张图片"
+msgstr ""
 
 #: app/templates/app/dashboard.html:37
 #, python-format
 msgid "图片至少需要有65%%以上的重合度"
-msgstr "图片至少需要有65%%以上的重合度"
+msgstr ""
 
 #: app/templates/app/dashboard.html:38
 #, python-format
 msgid "为了更好的3D体验，图片必须有83%%以上的重合度"
-msgstr "为了更好的3D体验，图片必须有83%%以上的重合度"
+msgstr ""
 
 #: app/templates/app/dashboard.html:39
 msgid ""
@@ -446,45 +442,42 @@ msgid ""
 "Running-OpenDroneMap#running-odm-with-ground-control\" target=\"_blank\">地面"
 "控制点文件</a> 以提升地理坐标精度"
 msgstr ""
-"可选择提供 <a href=\"https://github.com/OpenDroneMap/OpenDroneMap/wiki/"
-"Running-OpenDroneMap#running-odm-with-ground-control\" target=\"_blank\">地面"
-"控制点文件</a> 以提升地理坐标精度"
 
 #: app/templates/app/logged_in_base.html:197
 msgid "您好"
-msgstr "您好"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:201
 msgid "注销"
-msgstr "注销"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:224
 msgid "三维重建任务"
-msgstr "三维重建任务"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:272
 msgid "API 接口"
-msgstr "API 接口"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:276
 msgid "Administration"
-msgstr "管理"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:279
 msgid "Accounts"
-msgstr "账户"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:282
 msgid "Groups"
-msgstr "群组"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:285
 msgid "Brand"
-msgstr "商标"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:288
 msgid "Theme"
-msgstr "主题"
+msgstr ""
 
 #: app/templates/app/logged_in_base.html:291
 msgid "Plugins"
@@ -500,253 +493,251 @@ msgstr "节点"
 
 #: app/templates/app/processing_node.html:11
 msgid "节点命名"
-msgstr "节点命名"
+msgstr ""
 
 #: app/templates/app/processing_node.html:15
 msgid "端口"
-msgstr "端口"
+msgstr ""
 
 #: app/templates/app/processing_node.html:19
 msgid "API 版本"
-msgstr "API 版本"
+msgstr ""
 
 #: app/templates/app/processing_node.html:23
 msgid "ODM Version"
-msgstr "ODM版本"
+msgstr ""
 
 #: app/templates/app/processing_node.html:27
 msgid "Queue Count"
-msgstr "队列计数"
+msgstr ""
 
 #: app/templates/app/processing_node.html:31
 msgid "Max Images Limit"
-msgstr "最大图像数限制"
+msgstr ""
 
 #: app/templates/app/processing_node.html:35
 msgid "Label"
-msgstr "标签"
+msgstr ""
 
 #: app/templates/app/processing_node.html:39
 msgid "Last Refreshed"
-msgstr "最后更新于"
+msgstr ""
 
 #: app/templates/app/processing_node.html:40
 msgid "ago"
-msgstr "过去"
+msgstr ""
 
 #: app/templates/app/processing_node.html:43
 msgid "选项 (JSON)"
-msgstr "选项 (JSON)"
+msgstr ""
 
 #: app/templates/app/processing_node.html:49
 msgid "编辑"
-msgstr "编辑"
+msgstr ""
 
 #: app/templates/app/processing_node.html:50
 msgid "删除"
-msgstr "删除"
+msgstr ""
 
 #: app/templates/app/registration/logged_out.html:5
 msgid "You have been logged out."
-msgstr "您已注销。"
+msgstr ""
 
 #: app/templates/app/registration/logged_out.html:6
 msgid "Log In"
-msgstr "登录"
+msgstr ""
 
 #: app/templates/app/registration/login.html:7
 msgid "Invalid credentials."
-msgstr "无效证件。"
+msgstr ""
 
 #: app/templates/app/registration/login.html:7
 msgid "Note that both fields are case-sensitive."
-msgstr "请注意，这两个字段都区分大小写。"
+msgstr ""
 
 #: app/templates/app/registration/login.html:19
 #: app/templates/app/registration/password_reset_form.html:16
 msgid "Reset My Password"
-msgstr "重置我的密码"
+msgstr ""
 
 #: app/templates/app/registration/password_change_done.html:5
 msgid "Password Changed Successfully"
-msgstr "更改密码成功"
+msgstr ""
 
 #: app/templates/app/registration/password_change_done.html:6
 msgid "Back"
-msgstr "返回"
+msgstr ""
 
 #: app/templates/app/registration/password_change_form.html:14
 msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
-"为安全起见，请输入旧密码，然后输入两次新密码，以便我们验证您输入的密码是否正"
-"确。"
 
 #: app/templates/app/registration/password_change_form.html:22
 msgid "Change my password"
-msgstr "更改我的密码"
+msgstr ""
 
 #: app/templates/app/registration/password_change_form.html:23
 msgid "Cancel"
-msgstr "取消"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_complete.html:5
 msgid "Password Reset Complete"
-msgstr "密码重置完成"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_complete.html:6
 msgid "Your password has been set.  You can log in now."
-msgstr "您的密码已设置。 你现在可以登录。"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_confirm.html:15
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
-msgstr "请输入两次新密码，以便我们验证您输入的密码是否正确。"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_confirm.html:22
 msgid "Change My Password"
-msgstr "更改我的密码"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_confirm.html:26
 msgid "Password Reset Failed"
-msgstr "密码重置失败"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_confirm.html:28
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
-msgstr "密码重置链接无效，可能是因为它已被使用。 请求重设新密码。"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_done.html:5
 msgid "Password Reset Successful"
-msgstr "密码重置成功"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_done.html:6
 msgid ""
 "We have sent an e-mail with instructions for resetting your password. You "
 "should be receiving it shortly."
-msgstr "我们发送了一封关于重置您的密码的说明的电子邮件，您很快就会收到它。"
+msgstr ""
 
 #: app/templates/app/registration/password_reset_form.html:16
 msgid "loading"
-msgstr "载入中"
+msgstr ""
 
 #: app/templates/app/welcome.html:224
 msgid "请检查以下错误"
-msgstr "请检查以下错误"
+msgstr ""
 
 #: app/templates/app/welcome.html:237
 msgid "创建账户"
-msgstr "创建账户"
+msgstr ""
 
 #: app/views/app.py:33
 msgid "First Project"
-msgstr "第一个项目"
+msgstr ""
 
 #: app/views/app.py:54 app/views/public.py:25
 msgid "Map"
-msgstr "地图"
+msgstr ""
 
 #: app/views/app.py:81
 msgid "3D Model Display"
-msgstr "展示3D模型"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/colorfield/fields.py:13
 msgid "Enter a valid color."
-msgstr "输入有效的颜色。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"
-msgstr "信息"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/contrib/sitemaps/apps.py:7
 msgid "Site Maps"
-msgstr "网站地图"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/contrib/staticfiles/apps.py:9
 msgid "Static Files"
-msgstr "静态文件"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/contrib/syndication/apps.py:7
 msgid "Syndication"
-msgstr "许可"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/paginator.py:42
 msgid "That page number is not an integer"
-msgstr "该页码不是整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/paginator.py:44
 msgid "That page number is less than 1"
-msgstr "该页码小于1"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/paginator.py:49
 msgid "That page contains no results"
-msgstr "该页面不包含任何结果"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:31
 msgid "Enter a valid value."
-msgstr "输入一个有效值。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:102
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:657
 msgid "Enter a valid URL."
-msgstr "输入一个有效的网址。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:154
 msgid "Enter a valid integer."
-msgstr "输入一个有效的整数。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:165
 msgid "Enter a valid email address."
-msgstr "输入一个有效的邮箱地址。"
+msgstr ""
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:239
 msgid ""
 "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
-msgstr "输一个由字母，数字，下划线或连字符组成的有效的字符组合。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:246
 msgid ""
 "Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
-msgstr "输一个由Unicode字母，数字，下划线或连字符组成的有效的字符组合。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:255
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:275
 msgid "Enter a valid IPv4 address."
-msgstr "输入有效的IPv4地址。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:260
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:276
 msgid "Enter a valid IPv6 address."
-msgstr "输入有效的IPv6地址。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:270
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:274
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "输入有效的IPv4或IPv6地址。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:304
 msgid "Enter only digits separated by commas."
-msgstr "仅输入以逗号分隔的数字。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:310
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "确认该值为%(limit_value)s (it is %(show_value)s)。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:341
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "确认该值小于或等于%(limit_value)s。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:350
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "确认该值大于或等于%(limit_value)s。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:360
 #, python-format
@@ -756,8 +747,8 @@ msgid ""
 msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
-msgstr[0] "确认该值至少有%(limit_value)d个字符(当前有%(show_value)d)。"
-msgstr[1] "确认该值至少有%(limit_value)d个字符(当前有%(show_value)d)。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:375
 #, python-format
@@ -767,25 +758,28 @@ msgid ""
 msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
-msgstr[0] "确认该值至多具有%(limit_value)d个字符(当前有%(show_value)d)。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:394
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:289
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:324
 msgid "Enter a number."
-msgstr "输入一个数字。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:396
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "确认总共不超过%(max)s个数字。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:401
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "确认小数位数不超过%(max)s。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:406
 #, python-format
@@ -793,7 +787,8 @@ msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] "确认小数点前的数字不超过%(max)s。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:468
 #, python-format
@@ -801,40 +796,38 @@ msgid ""
 "File extension '%(extension)s' is not allowed. Allowed extensions are: "
 "'%(allowed_extensions)s'."
 msgstr ""
-"不允许使用文件扩展名'%(extension)s'。 允许的扩展名"
-"为:'%(allowed_extensions)s'。"
 
 #: odmvenv/lib/python3.5/site-packages/django/core/validators.py:520
 msgid "Null characters are not allowed."
-msgstr "不允许使用空字符。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/base.py:1111
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:752
 msgid "and"
-msgstr "和"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/base.py:1113
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "具有该%(model_name)s的%(field_labels)s已存在。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:105
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "该值%(value)r不是有效的选择。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:106
 msgid "This field cannot be null."
-msgstr "该字段不能为空。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:107
 msgid "This field cannot be blank."
-msgstr "该字段不能为空值。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:108
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "具有此 %(field_label)s的%(model_name)s已存在。"
+msgstr ""
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
@@ -842,58 +835,58 @@ msgstr "具有此 %(field_label)s的%(model_name)s已存在。"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr "%(field_label)s对于%(date_field_label)s%(lookup_type)s必须是唯一的。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:129
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "字段类型:%(field_type)s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:898
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1766
 msgid "Integer"
-msgstr "整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:902
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1764
 #, python-format
 msgid "'%(value)s' value must be an integer."
-msgstr "'%(value)s'值必须为整数。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:977
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1833
 msgid "Big (8 byte) integer"
-msgstr "大(8字节)整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:989
 #, python-format
 msgid "'%(value)s' value must be either True or False."
-msgstr "'%(value)s'值必须为True或False。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:990
 #, python-format
 msgid "'%(value)s' value must be either True, False, or None."
-msgstr "'%(value)s'值必须为True，False或None。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:992
 msgid "Boolean (Either True or False)"
-msgstr "布尔值(True或False)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1034
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "字符串(最多%(max_length)s)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1098
 msgid "Comma-separated integers"
-msgstr "以逗号分隔的整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1147
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
-msgstr "'%(value)s'具有无效的日期格式。它必须是YYYY-MM-DD格式。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1149
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1292
@@ -901,11 +894,11 @@ msgstr "'%(value)s'具有无效的日期格式。它必须是YYYY-MM-DD格式。
 msgid ""
 "'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
-msgstr "'%(value)s'值具有正确的格式(YYYY-MM-DD)但是它是一个无效的日期。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1152
 msgid "Date (without time)"
-msgstr "日期(不包含时间)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1290
 #, python-format
@@ -913,7 +906,6 @@ msgid ""
 "'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"'%(value)s'值具有无效的格式。它必须是YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]格式。"
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1294
 #, python-format
@@ -921,283 +913,283 @@ msgid ""
 "'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
-"'%(value)s'值具有正确的格式(YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ])但是它是无效的"
-"日期/时间。"
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1298
 msgid "Date (with time)"
-msgstr "日期(包含时间)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1446
 #, python-format
 msgid "'%(value)s' value must be a decimal number."
-msgstr "'%(value)s'值必须是十进制数。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1448
 msgid "Decimal number"
-msgstr "十进制数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1587
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
 "uuuuuu] format."
-msgstr "'%(value)s'值具有无效的格式。它必须是[DD] [HH:[MM:]]ss[.uuuuuu]格式。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1590
 msgid "Duration"
-msgstr "时长"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1640
 msgid "Email address"
-msgstr "电子邮箱地址"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1663
 msgid "File path"
-msgstr "文件路径"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1729
 #, python-format
 msgid "'%(value)s' value must be a float."
-msgstr "'%(value)s'值必须是浮点数。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1731
 msgid "Floating point number"
-msgstr "浮点数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1849
 msgid "IPv4 address"
-msgstr "IPv4地址"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1880
 msgid "IP address"
-msgstr "IP地址"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1960
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1961
 #, python-format
 msgid "'%(value)s' value must be either None, True or False."
-msgstr "'%(value)s'值必须为None，True或False。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1963
 msgid "Boolean (Either True, False or None)"
-msgstr "布尔值(True，False或None)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1998
 msgid "Positive integer"
-msgstr "正整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2011
 msgid "Positive small integer"
-msgstr "正短整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2025
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "字符组合(最多%(max_length)s)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2057
 msgid "Small integer"
-msgstr "短整数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2064
 msgid "Text"
-msgstr "文本"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2092
 #, python-format
 msgid ""
 "'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
-msgstr "'%(value)s'具有无效的格式。它必须是 HH:MM[:ss[.uuuuuu]]格式。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2094
 #, python-format
 msgid ""
 "'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
-msgstr "'%(value)s'值具有正确的格式(HH:MM[:ss[.uuuuuu]])但是它是无效的时间。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2097
 msgid "Time"
-msgstr "时间"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2223
 msgid "URL"
-msgstr "网址"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2245
 msgid "Raw binary data"
-msgstr "原始二进制数据"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:2295
 #, python-format
 msgid "'%(value)s' is not a valid UUID."
-msgstr "'%(value)s'不是有效的UUID。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/files.py:221
 msgid "File"
-msgstr "文件"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/files.py:360
 msgid "Image"
-msgstr "图像"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/related.py:778
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr "具有%(field)s %(value)r的%(model)s不存在。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/related.py:780
 msgid "Foreign Key (type determined by related field)"
-msgstr "外键(由相关字段确定的类型)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/related.py:1001
 msgid "One-to-one relationship"
-msgstr "一对一的关系"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/related.py:1051
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "%(from)s-%(to)s的关系"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/related.py:1052
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "%(from)s-%(to)s的关系"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/db/models/fields/related.py:1094
 msgid "Many-to-many relationship"
-msgstr "多对多的关系"
+msgstr ""
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the label
 #: odmvenv/lib/python3.5/site-packages/django/forms/boundfield.py:146
 msgid ":?.!"
-msgstr ":?.!"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:52
 msgid "This field is required."
-msgstr "这是必填栏。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:244
 msgid "Enter a whole number."
-msgstr "输入正整数或零。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:395
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:1126
 msgid "Enter a valid date."
-msgstr "输入一个有效的日期。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:419
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:1127
 msgid "Enter a valid time."
-msgstr "输入一个有效的时间。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:441
 msgid "Enter a valid date/time."
-msgstr "输入一个有效的日期/时间。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:470
 msgid "Enter a valid duration."
-msgstr "输入有效的时长。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:471
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "天数必须介于{min_days}和{max_days}。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:531
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "没有文件提交。检查表单上的编码类型。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:532
 msgid "No file was submitted."
-msgstr "没有文件被提交。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:533
 msgid "The submitted file is empty."
-msgstr "提交的文件是空的。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:535
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] "确认此文件名最多包含%(max)d个字符(当前有%(length)d)。"
-msgstr[1] "确认此文件名最多包含%(max)d个字符(当前有%(length)d)。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:538
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "请提交文件或选中清除框，不要同时选择。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:599
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr "上传有效图片。 您上传的文件不是图像格式或图像格式损坏。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:761
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:851
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:1272
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "选择一个有效的选项。%(value)s不是可用选项之一。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:852
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:967
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:1271
 msgid "Enter a list of values."
-msgstr "输入值列表。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:968
 msgid "Enter a complete value."
-msgstr "输入完整的值。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/fields.py:1185
 msgid "Enter a valid UUID."
-msgstr "输入一个有效的UUID。"
+msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
 #: odmvenv/lib/python3.5/site-packages/django/forms/forms.py:86
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/forms.py:212
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(隐藏字段%(name)s) %(error)s)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/formsets.py:91
 msgid "ManagementForm data is missing or has been tampered with"
-msgstr "管理图表数据丢失或被篡改"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/formsets.py:338
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
-msgstr[0] "请提交%d或更少的表格。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/formsets.py:345
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
-msgstr[0] "请提交%d或更多的表格。"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/formsets.py:371
 #: odmvenv/lib/python3.5/site-packages/django/forms/formsets.py:373
 msgid "Order"
-msgstr "顺序"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:747
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "请更正%(field)s的重复数据。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:751
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "请更正%(field)s的重复数据，该数据必须是唯一的。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:757
 #, python-format
@@ -1205,25 +1197,23 @@ msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"请更正%(field_name)s的重复数据，该数据对于%(date_field)s中的%(lookup)s必须是"
-"唯一的。"
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:766
 msgid "Please correct the duplicate values below."
-msgstr "请更正以下重复值。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:1093
 msgid "The inline value did not match the parent instance."
-msgstr "内联值与父实例不匹配。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:1160
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "选择一个有效的选择。%(value)s不是可用选项之一。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/models.py:1274
 #, python-format
 msgid "\"%(pk)s\" is not a valid value."
-msgstr "\"%(pk)s\"不是一个有效值。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/utils.py:162
 #, python-format
@@ -1231,435 +1221,433 @@ msgid ""
 "%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
-"%(datetime)s无法在时区%(current_timezone)s中表现；它可能具有二义性或可能不存"
-"在。"
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/widgets.py:383
 msgid "Clear"
-msgstr "清除"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/widgets.py:384
 msgid "Currently"
-msgstr "当前"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/widgets.py:699
 msgid "Unknown"
-msgstr "未知"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/widgets.py:700
 msgid "Yes"
-msgstr "是"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/forms/widgets.py:701
 msgid "No"
-msgstr "否"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:788
 msgid "yes,no,maybe"
-msgstr "是，否，或许"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:817
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:834
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d字节"
-msgstr[1] "%(size)d字节"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:836
 #, python-format
 msgid "%s KB"
-msgstr "%s KB"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:838
 #, python-format
 msgid "%s MB"
-msgstr "%s MB"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:840
 #, python-format
 msgid "%s GB"
-msgstr "%s GB"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:842
 #, python-format
 msgid "%s TB"
-msgstr "%s TB"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/template/defaultfilters.py:844
 #, python-format
 msgid "%s PB"
-msgstr "%s PB"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dateformat.py:62
 msgid "p.m."
-msgstr "p.m."
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dateformat.py:63
 msgid "a.m."
-msgstr "a.m."
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dateformat.py:68
 msgid "PM"
-msgstr "PM"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dateformat.py:69
 msgid "AM"
-msgstr "AM"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dateformat.py:150
 msgid "midnight"
-msgstr "午夜"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dateformat.py:152
 msgid "noon"
-msgstr "中午"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Monday"
-msgstr "星期一"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Tuesday"
-msgstr "星期二"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Wednesday"
-msgstr "星期三"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Thursday"
-msgstr "星期四"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Friday"
-msgstr "星期五"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:7
 msgid "Saturday"
-msgstr "星期六"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:7
 msgid "Sunday"
-msgstr "星期天"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Mon"
-msgstr "星期一"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Tue"
-msgstr "星期二"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Wed"
-msgstr "星期三"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Thu"
-msgstr "星期四"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Fri"
-msgstr "星期五"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:11
 msgid "Sat"
-msgstr "星期六"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:11
 msgid "Sun"
-msgstr "星期天"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:14
 msgid "January"
-msgstr "一月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:14
 msgid "February"
-msgstr "二月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:14
 msgid "March"
-msgstr "三月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:14
 msgid "April"
-msgstr "四月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:14
 msgid "May"
-msgstr "五月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:14
 msgid "June"
-msgstr "六月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:15
 msgid "July"
-msgstr "七月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:15
 msgid "August"
-msgstr "八月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:15
 msgid "September"
-msgstr "九月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:15
 msgid "October"
-msgstr "十月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:15
 msgid "November"
-msgstr "十一月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:16
 msgid "December"
-msgstr "十二月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "jan"
-msgstr "一月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "feb"
-msgstr "二月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "mar"
-msgstr "三月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "apr"
-msgstr "四月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "may"
-msgstr "五月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "jun"
-msgstr "六月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "jul"
-msgstr "七月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "aug"
-msgstr "八月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "sep"
-msgstr "九月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "oct"
-msgstr "十月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "nov"
-msgstr "十一月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "dec"
-msgstr "十二月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "一月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "二月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:25
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "三月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:26
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "四月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:27
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "五月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:28
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "六月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:29
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "七月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:30
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "八月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:31
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "九月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:32
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "十月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:33
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "十一月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:34
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "十二月。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:37
 msgctxt "alt. month"
 msgid "January"
-msgstr "一月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:38
 msgctxt "alt. month"
 msgid "February"
-msgstr "二月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:39
 msgctxt "alt. month"
 msgid "March"
-msgstr "三月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:40
 msgctxt "alt. month"
 msgid "April"
-msgstr "四月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:41
 msgctxt "alt. month"
 msgid "May"
-msgstr "五月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:42
 msgctxt "alt. month"
 msgid "June"
-msgstr "六月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:43
 msgctxt "alt. month"
 msgid "July"
-msgstr "七月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:44
 msgctxt "alt. month"
 msgid "August"
-msgstr "八月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:45
 msgctxt "alt. month"
 msgid "September"
-msgstr "九月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:46
 msgctxt "alt. month"
 msgid "October"
-msgstr "十月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:47
 msgctxt "alt. month"
 msgid "November"
-msgstr "十一月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/dates.py:48
 msgctxt "alt. month"
 msgid "December"
-msgstr "十二月"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/ipv6.py:8
 msgid "This is not a valid IPv6 address."
-msgstr "这不是有效的IPv6地址。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/text.py:70
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s..."
-msgstr "%(truncated_text)s..."
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/text.py:237
 msgid "or"
-msgstr "或"
+msgstr ""
 
 #. Translators: This string is used as a separator between list elements
 #: odmvenv/lib/python3.5/site-packages/django/utils/text.py:256
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:83
 msgid ", "
-msgstr "，"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:9
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d 年"
-msgstr[1] "%d 年"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:10
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d 月"
-msgstr[1] "%d 月"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:11
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "%d 周"
-msgstr[1] "%d 周"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:12
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d 天"
-msgstr[1] "%d 天"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:13
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d 小时"
-msgstr[1] "%d 小时"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:14
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d 分钟"
-msgstr[1] "%d 分钟"
+msgstr[0] ""
+msgstr[1] ""
 
 #: odmvenv/lib/python3.5/site-packages/django/utils/timesince.py:72
 msgid "0 minutes"
-msgstr "0 钟"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:110
 msgid "Forbidden"
-msgstr "被禁止"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:111
 msgid "CSRF verification failed. Request aborted."
-msgstr "CSRF验证失败。 请求中止。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:115
 msgid ""
@@ -1668,8 +1656,6 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"您看到此消息，是因为此HTTPS站点需要您的Web浏览器发送来源地址，但没有发"
-"送。 出于安全原因，此HTTP包头是必需的，以确认您的浏览器不会被第三方劫持。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:120
 msgid ""
@@ -1677,8 +1663,6 @@ msgid ""
 "enable them, at least for this site, or for HTTPS connections, or for 'same-"
 "origin' requests."
 msgstr ""
-"如果您已将浏览器配置为禁用HTTP来源地址包头，请至少为此站点，或HTTPS"
-"连接或相同的起始站点请求重新启用它们。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:124
 msgid ""
@@ -1688,10 +1672,6 @@ msgid ""
 "If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
 "\" ...> for links to third-party sites."
 msgstr ""
-"如果您使用<meta name=\"referrer\" content=\"no-referrer\">标记或包"
-"含'Referrer-Policy: no-referrer'标题，请将其删除。 CSRF保护要求来源地址包"
-"头进行严格的引用检查。 如果您担心隐私，请使用<a rel=\"noreferrer\" ...> 等替"
-"代方案来获取第三方网站的链接。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:132
 msgid ""
@@ -1699,48 +1679,44 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"您看到此消息是因为此站点在提交表单时需要CSRF cookie。 出于安全原因，需要此"
-"cookie，以确认您的浏览器不会被第三方劫持。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:137
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for 'same-origin' requests."
 msgstr ""
-"如果您已将浏览器配置为禁用cookie，请重新启用它们，至少对于此站点或'same-"
-"origin' 请求。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/csrf.py:142
 msgid "More information is available with DEBUG=True."
-msgstr "设置DEBUG=True以提供更多信息。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:41
 msgid "No year specified"
-msgstr "没有指定年份"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:61
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:111
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:208
 msgid "Date out of range"
-msgstr "日期超出范围"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:90
 msgid "No month specified"
-msgstr "没有指定月份"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:142
 msgid "No day specified"
-msgstr "没有指定天数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:188
 msgid "No week specified"
-msgstr "没有指定周数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:338
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:367
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "没有%(verbose_name_plural)s可用"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:585
 #, python-format
@@ -1748,49 +1724,48 @@ msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"未来%(verbose_name_plural)s不可用，因为%(class_name)s.allow_future为False。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/dates.py:619
 #, python-format
 msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
-msgstr "给定格式 '%(format)s'的日期字符串'%(datestr)s'无效"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/detail.py:54
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "找不到与查询匹配的%(verbose_name)s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/list.py:67
 msgid "Page is not 'last', nor can it be converted to an int."
-msgstr "页面不是'last'，也不能转换为int。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/list.py:72
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "无效的页面(%(page_number)s):%(message)s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/generic/list.py:154
 #, python-format
 msgid "Empty list and '%(class_name)s.allow_empty' is False."
-msgstr "空列表和'%(class_name)s.allow_empty'为False。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/static.py:40
 msgid "Directory indexes are not allowed here."
-msgstr "此处不允许使用目录索引。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/static.py:42
 #, python-format
 msgid "\"%(path)s\" does not exist"
-msgstr "\"%(path)s\"不存在"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/static.py:80
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "%(directory)s索引"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:6
 msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr "Django:需要限时开发的完美主义者的Web框架。"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:345
 #, python-format
@@ -1798,12 +1773,10 @@ msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"查看Django %(version)s的<a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">发行说明</a>"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:367
 msgid "The install worked successfully! Congratulations!"
-msgstr "安装成功！恭喜！"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:368
 #, python-format
@@ -1813,198 +1786,194 @@ msgid ""
 "\">DEBUG=True</a> is in your settings file and you have not configured any "
 "URLs."
 msgstr ""
-"您正在查看此页面，因为<a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\"> DEBUG "
-"= True </a>位于您的设置文件中，但您尚未配置任何网址。"
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:383
 msgid "Django Documentation"
-msgstr "Django文档"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:384
 msgid "Topics, references, &amp; how-to's"
-msgstr "主题，参考，&amp; how-to's"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:395
 msgid "Tutorial: A Polling App"
-msgstr "教程:一个轮询App"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:396
 msgid "Get started with Django"
-msgstr "开始使用Django"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:407
 msgid "Django Community"
-msgstr "Django社区"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/django/views/templates/default_urlconf.html:408
 msgid "Connect, get help, or contribute"
-msgstr "连接，获得帮助或提供支持"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:313
 msgid "usage: "
-msgstr "用法"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:821
 msgid ".__call__() not defined"
-msgstr ".__call__() 未定义"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1105
 #, python-format
 msgid "unknown parser %r (choices: %s)"
-msgstr "未知的解析器%r (选项: %s)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1146
 #, python-format
 msgid "argument \"-\" with mode %r"
-msgstr "模式%r的参数\"-\""
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1349
 #, python-format
 msgid "cannot merge actions - two groups are named %r"
-msgstr "无法合并操作 - 两个组名为%r"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1387
 msgid "'required' is an invalid argument for positionals"
-msgstr "'required' 是定位符的无效参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1407
 #, python-format
 msgid "invalid option string %r: must start with a character %r"
-msgstr "无效的选项字符串%r:必须以字符%r开头"
-
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1428
 #, python-format
 msgid "dest= is required for options like %r"
-msgstr "对于像%r的选项 dest=是需要填写的"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1445
 #, python-format
 msgid "invalid conflict_resolution value: %r"
-msgstr "无效的conflict_resolution值:%r"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1463
 #, python-format
 msgid "conflicting option string(s): %s"
-msgstr "冲突的选项字符串:%s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1526
 msgid "mutually exclusive arguments must be optional"
-msgstr "互斥参数必须是可选的"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1596
 msgid "positional arguments"
-msgstr "位置参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1597
 msgid "optional arguments"
-msgstr "可选参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1615
 msgid "show this help message and exit"
-msgstr "显示此帮助消息并退出"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1621
 msgid "show program's version number and exit"
-msgstr "显示程序的版本号并退出"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1653
 msgid "cannot have multiple subparser arguments"
-msgstr "不能有多个subparser参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1705
 #, python-format
 msgid "unrecognized arguments: %s"
-msgstr "无法识别的参数:%s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1802
 #, python-format
 msgid "not allowed with argument %s"
-msgstr "参数%s不允许"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1848
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1862
 #, python-format
 msgid "ignored explicit argument %r"
-msgstr "忽略显式参数%r"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1952
 msgid "too few arguments"
-msgstr "太少参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1959
 #, python-format
 msgid "argument %s is required"
-msgstr "参数%s是必需的"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:1973
 #, python-format
 msgid "one of the arguments %s is required"
-msgstr "其中一个参数%s是必需的"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2019
 msgid "expected one argument"
-msgstr "要求一个参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2020
 msgid "expected at most one argument"
-msgstr "要求最多一个参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2021
 msgid "expected at least one argument"
-msgstr "要求最少一个参数"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2023
 #, python-format
 msgid "expected %s argument(s)"
-msgstr "要求%s参数(s)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2080
 #, python-format
 msgid "ambiguous option: %s could match %s"
-msgstr "模糊选项:%s可以匹配%s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2142
 #, python-format
 msgid "unexpected option string: %s"
-msgstr "意外的选项字符串:%s"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2243
 #, python-format
 msgid "%r is not callable"
-msgstr "%r 不可调用"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2259
 #, python-format
 msgid "invalid %s value: %r"
-msgstr "%s 值:%r无效"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2269
 #, python-format
 msgid "invalid choice: %r (choose from %s)"
-msgstr "无效选择:%r(从%s中选择)"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/gunicorn/argparse_compat.py:2362
 #, python-format
 msgid "%s: error: %s\n"
-msgstr "%s: 错误:%s\n"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/imagekit/admin.py:10
 msgid "Thumbnail"
-msgstr "缩略图"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/kombu/transport/qpid.py:1298
 #, python-format
 msgid "Attempting to connect to qpid with SASL mechanism %s"
-msgstr "尝试使用SASL机制%s连接到qpid"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/kombu/transport/qpid.py:1303
 #, python-format
 msgid "Connected to qpid with SASL mechanism %s"
-msgstr "使用SASL机制%s连接到qpid"
+msgstr ""
 
 #: odmvenv/lib/python3.5/site-packages/kombu/transport/qpid.py:1321
 #, python-format
 msgid "Unable to connect to qpid with SASL mechanism %s"
-msgstr "无法使用SASL机制%s连接到qpid"
+msgstr ""
